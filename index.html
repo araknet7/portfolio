@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max:width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max:width:530px)" href="phone.css">
+</head>
+<body>
+
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- home -->
+    <section id="home">
+        <div class="container">
+            <p>hacking(<span class="typed-text"></span><span class="cursor">&nbsp;</span>)</p>
+          </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+        <h1 class="headings">Projects</h1>
+        <div class="row">
+            <div class="box">
+                <img src="document.png" alt="">
+                <h1 class="boxheadings">certifications</h1>
+                <ul>
+                    <li>Network+</li>
+                    <li>A+</li>
+                    <li>ITF+</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="hacker.png" alt="">
+                <h1 class="boxheadings">hacking</h1>
+                <ul>
+                    <li>Hack the Box</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="tower.png" alt="">
+                <h1 class="boxheadings">homelab</h1>
+                <ul>
+                    <li>Kali Linux</li>
+                    <li>Virtualbox</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="web.png" alt="">
+                <h1 class="boxheadings">web development</h1>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacts -->
+    <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <!-- <form action="mail.php" class="form">
+
+            <input type="text" name="name" class="input" placeholder="name">
+            <input type="email" name="email" class="input" placeholder="email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="message"></textarea>
+            
+            <input type="submit" value="SEND" id="send">
+        </form> -->
+        
+        <form action="webform.php" method="POST" class="form">
+            <!-- <div class="form-group">
+                <label for="name" class="form-label"></label> -->
+                <input type="text" class="input" id="name" name="name" placeholder="name" tabindex="1" required>
+            <!-- </div>
+            <div class="form-group">
+                <label for="email" class="form-label"></label> -->
+                <input type="email" class="input" id="email" name="email" placeholder="email" tabindex="2" required>
+            <!-- </div>
+            <div class="form-group">
+                <label for="subject" class="form-label"></label> -->
+                <input type="text" class="input" id="subject" name="subject" placeholder="subject" tabindex="3" required>
+            <!-- </div>
+            <div class="form-group">
+                <label for="message" class="form-label"></label> -->
+                <textarea class="input" rows="10" cols="30" id="msg" name="message" placeholder="message" tabindex="4"></textarea>
+            <!-- </div>
+            <div> -->
+                <button type="submit" id="send">Send</button>
+            <!-- </div> -->
+        </form>
+    </section>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>

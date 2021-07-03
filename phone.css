@@ -1,0 +1,25 @@
+/* home */
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+
+/* portfolio */
+.gallery img{
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+}
+
+/* contact */
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
