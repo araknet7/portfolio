@@ -120,12 +120,6 @@ html {
     transition: all .5s ease;
 }
 
-.headings:hover {
-    /* background-color: white; */
-    /* color: black; */
-    text-shadow: 0 0 10px rgb(102, 255, 102);
-}
-
 
 
 /* .btn{
@@ -236,8 +230,7 @@ li:not(:last-child) {
 } */
 
 
-/* contact section */
-
+/* footer section */
 #footer {
     display: flex;
     flex-direction: column;
